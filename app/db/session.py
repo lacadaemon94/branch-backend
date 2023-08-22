@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, Float
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship, sessionmaker
 
-DATABASE_URL = "postgresql+psycopg2://postgres:u8Qxe&k39XeWPN^q@db.iizvajwgbwshetzxkmni.supabase.co:6543/postgres"
+DATABASE_URL = "postgresql+psycopg2://postgres:[TU_PASSWORD_DE_SUPABASE(BD)]@db.[TU_URL_DE_SUPABASE)]:6543/postgres"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
