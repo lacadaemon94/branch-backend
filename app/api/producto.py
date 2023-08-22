@@ -57,5 +57,3 @@ def listar_inventario(request: InventarioListRequest, db: Session = Depends(get_
     inventarios = crud_producto.get_inventario_by_sucursal(db, request.sucursal_id)
 
     return inventarios
-
-# Add routes for create, update, and delete similarly
