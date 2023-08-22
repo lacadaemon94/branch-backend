@@ -1,8 +1,10 @@
 # Guía de Configuración y Ejecución para Branch Backend
 ## Prerrequisitos
 - Docker y Docker Compose instalados.
-- Python .
-- Composer para la gestión de dependencias de PHP.
+- Python.
+- pip.
+- fastapi
+- sqlalchemy
 
 ## Configuración
 1. Clonar el Repositorio:
